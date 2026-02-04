@@ -28,7 +28,7 @@ async function createAirtableLead(data: DemoRequestFormData): Promise<void> {
       'Catalog Size': catalogSizeLabels[data.catalogSize] || data.catalogSize,
       'Current System': data.currentSystem || undefined,
       Message: data.message || undefined,
-      Status: 'Inbound',
+      'Lead Status': 'Inbound',
       Source: 'Website Demo Request',
       'Created At': new Date().toISOString(),
     },

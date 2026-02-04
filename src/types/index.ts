@@ -33,7 +33,7 @@ export interface AirtableLead {
     'Catalog Size': string;
     'Current System'?: string;
     'Message'?: string;
-    'Status': 'Inbound' | 'Contacted' | 'Qualified' | 'Closed';
+    'Lead Status': 'Inbound' | 'Contacted' | 'Qualified' | 'Closed';
     'Source': string;
     'Created At': string;
   };
