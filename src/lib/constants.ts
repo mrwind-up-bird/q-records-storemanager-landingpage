@@ -151,7 +151,7 @@ export const faqItems: FAQItem[] = [
   {
     id: '5',
     question: 'Kann ich Q-Records auch für Online-Verkäufe nutzen?',
-    answer: 'Ja! Q-Records synchronisiert nahtlos mit Ihrem Online-Shop (Shopify, WooCommerce, etc.) sowie mit Marktplätzen wie Discogs und eBay. Alle Verkäufe landen in einem zentralen Dashboard.',
+    answer: 'Ja! Q-Records bietet eine eigene Warenkorb Funktion für das bestellen von Produkten aus dem Sortiment. Wir können aber auch nahtlos mit Ihrem Online-Shop (Shopify, WooCommerce, etc.) sowie mit Marktplätzen wie Discogs und eBay syncronisieren. Alle Verkäufe landen in einem zentralen Dashboard.',
   },
   {
     id: '6',

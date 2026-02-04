@@ -18,10 +18,10 @@ export const env = {
   },
   resend: {
     apiKey: () => getEnvVar('RESEND_API_KEY'),
-    fromEmail: () => getOptionalEnvVar('RESEND_FROM_EMAIL') || 'Q-Records <noreply@q-records.de>',
-    adminEmail: () => getOptionalEnvVar('ADMIN_EMAIL') || 'team@q-records.de',
+    fromEmail: () => getOptionalEnvVar('RESEND_FROM_EMAIL') || 'Q-Records <info@q-records-storemanager.de>',
+    adminEmail: () => getOptionalEnvVar('ADMIN_EMAIL') || 'info@q-records-storemanager.de',
   },
   app: {
-    url: () => getOptionalEnvVar('NEXT_PUBLIC_APP_URL') || 'https://q-records.de',
+    url: () => getOptionalEnvVar('NEXT_PUBLIC_APP_URL') || 'https://q-records-storemanager.de',
   },
 };
